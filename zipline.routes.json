@@ -1,0 +1,1094 @@
+{
+  "source": {
+    "project": "diced/zipline",
+    "version": "4.8.2",
+    "license": "MIT",
+    "root": "src/server/routes/api",
+    "packageJsonSha256": "bda9f2fdd2efebfd12e9661286ebdc1e4c70490f69b16903d39be11ca8fa39b5",
+    "routeTreeSha256": "7c0a943350a5304c009f2acbdb803902d0061fe738bea8c05669c8b584b0511e",
+    "files": [
+      {
+        "path": "src/server/routes/api/auth/invites/[id].ts",
+        "sha256": "be0af286162a4a8fd684656411970d37d3ac4e85c44333127ccac16f50ccd049"
+      },
+      {
+        "path": "src/server/routes/api/auth/invites/index.ts",
+        "sha256": "479d7e4188a15fbba70f588a3187cd0f6fa0e5c2760677f65869e9dd9fa35c23"
+      },
+      {
+        "path": "src/server/routes/api/auth/invites/web.ts",
+        "sha256": "9b9188f27e504bf939df77ab8a4635d564e3b46ec67fae27b08935135009dc90"
+      },
+      {
+        "path": "src/server/routes/api/auth/login.ts",
+        "sha256": "96b4364bdb6d352a65a785570568e372042080543225a1bb01b669ce138a2b81"
+      },
+      {
+        "path": "src/server/routes/api/auth/logout.ts",
+        "sha256": "c228eebe1169e41de84f4dccefff045281f67afdd1c118fe7587f65ec6a2b498"
+      },
+      {
+        "path": "src/server/routes/api/auth/oauth/discord.ts",
+        "sha256": "fa8d23fd85081f21feaeb7ca7592221e77314f8706542827fb5aea7035f813f3"
+      },
+      {
+        "path": "src/server/routes/api/auth/oauth/github.ts",
+        "sha256": "9fc46a0c0185da0601a39759bc8b14b789d9257740c2364f1c77759b853bbec4"
+      },
+      {
+        "path": "src/server/routes/api/auth/oauth/google.ts",
+        "sha256": "6022ddc4d83d8e4acf3faf3db288f739648890581cbf51e20d297f7ced2f905a"
+      },
+      {
+        "path": "src/server/routes/api/auth/oauth/index.ts",
+        "sha256": "f4dd379db16a6a84765abed3805420603c526cbc8bc19f93f066410d135ed7be"
+      },
+      {
+        "path": "src/server/routes/api/auth/oauth/oidc.ts",
+        "sha256": "c09add6197f4c634a9a7d5be5b80f8394495096b8f5bda33a871c8983afebd62"
+      },
+      {
+        "path": "src/server/routes/api/auth/register.ts",
+        "sha256": "551c67f7051629c1ab009cadfade8794658a51dcbfd7b3551c942862de96c123"
+      },
+      {
+        "path": "src/server/routes/api/auth/webauthn.ts",
+        "sha256": "e57807ed55aed71d5ea69a6de1fdc1cd1ca407877cba8695a4edb816ad21ed7c"
+      },
+      {
+        "path": "src/server/routes/api/healthcheck.ts",
+        "sha256": "9874975c8c81ec3b1e7ea2b5d926d1ec5d1fbd75dccd5e36a2c1a9479d862783"
+      },
+      {
+        "path": "src/server/routes/api/server/clear_temp.ts",
+        "sha256": "d175f1bb907f6f3156c80ac6fce92f554f1c04b5e95ff625a5307b53f17cfaa2"
+      },
+      {
+        "path": "src/server/routes/api/server/clear_zeros.ts",
+        "sha256": "d7c4c54c7f37166f63b16415f2955de95484b1f25b04394dcd6878dd63be4ac3"
+      },
+      {
+        "path": "src/server/routes/api/server/export.ts",
+        "sha256": "1e4fca22f4f92e8f9ba5f0de7de38762e59ffd0ff705237793c6eb8caccd4277"
+      },
+      {
+        "path": "src/server/routes/api/server/folder.ts",
+        "sha256": "657105a52664eb852597441aed9b1ce26d68fd14bf15a487c559393e52d39f3a"
+      },
+      {
+        "path": "src/server/routes/api/server/import/v3.ts",
+        "sha256": "cc37f155924a3b7d2e0b22679bb1c9aee04ed38e94db3e8c066e44fc21b3a07c"
+      },
+      {
+        "path": "src/server/routes/api/server/import/v4.ts",
+        "sha256": "359d2e2b976d79b922b00d5f59461d132f8fba919368e6f3ecd67c6e56d06618"
+      },
+      {
+        "path": "src/server/routes/api/server/public.ts",
+        "sha256": "daf6da92144c5a480e79281eb36afd8ce8ba606e64e1dac6b48551c2e869a1e5"
+      },
+      {
+        "path": "src/server/routes/api/server/requery_size.ts",
+        "sha256": "7617e36fadade8ce4a97bd740327ea6091a4fe475a0ef48f9bc14da829bb1d90"
+      },
+      {
+        "path": "src/server/routes/api/server/settings/index.ts",
+        "sha256": "9695ea2062c13a9a865eb4dbf3e0231aa3a257e24c81444ae1478ec4329ffd58"
+      },
+      {
+        "path": "src/server/routes/api/server/settings/web.ts",
+        "sha256": "62ed996574f1c9ef4db6f87fd5f3023e50aef193776aeb048fc4e858ace75e94"
+      },
+      {
+        "path": "src/server/routes/api/server/status.ts",
+        "sha256": "e2788956c99e1b9f5276b8b796f0014f178ca7ae78f5b8602d579f6343a1954e"
+      },
+      {
+        "path": "src/server/routes/api/server/themes.ts",
+        "sha256": "10ff44daea85b58080e15860561e58baf48b0bedc1ecab43f9e69018edc3a8b6"
+      },
+      {
+        "path": "src/server/routes/api/server/thumbnails.ts",
+        "sha256": "5670dd39409913578d1f7b979171d19ea4cb7ac073dd34636d6876c2b49f9be7"
+      },
+      {
+        "path": "src/server/routes/api/setup.ts",
+        "sha256": "574ab9bc358390f65fb610bcf0edc3f9cf46b25b42289e34acfa6661a44881f1"
+      },
+      {
+        "path": "src/server/routes/api/stats.ts",
+        "sha256": "621c4bfc4d7480a27c62c5343462673ccf43e833d685bb58de28beabf939440b"
+      },
+      {
+        "path": "src/server/routes/api/upload/index.ts",
+        "sha256": "ee5b925127f5fe13892ac72b7066ca297169bcec854de7d03aa83975ef41e2b2"
+      },
+      {
+        "path": "src/server/routes/api/upload/partial.ts",
+        "sha256": "30e00f8f818b1c3b591fd53e80c4aa9ea48a963630439379fef3d82993f8ab9e"
+      },
+      {
+        "path": "src/server/routes/api/user/activity.ts",
+        "sha256": "b085578aaffe9e6eecefb3bcb432fc2047e3ff190418a7221645f98edcf89946"
+      },
+      {
+        "path": "src/server/routes/api/user/avatar.ts",
+        "sha256": "3b3c8505d0c9ab4ccd44f3c0954dec867cc4e00177a3c8af1663afa85703e97a"
+      },
+      {
+        "path": "src/server/routes/api/user/export.ts",
+        "sha256": "8031465c7d1b47de37cbb1437195675c120cf9dac62e42393e91ac965be41787"
+      },
+      {
+        "path": "src/server/routes/api/user/files/[id]/index.ts",
+        "sha256": "866ddbab6995d0c109e0926c9a4e728f59f096ef5249006873599a6b292cee07"
+      },
+      {
+        "path": "src/server/routes/api/user/files/[id]/password.ts",
+        "sha256": "b046e6f44527f85bafd13b568c509452cebc632180fe55ee6a4bb814ec212a3b"
+      },
+      {
+        "path": "src/server/routes/api/user/files/[id]/raw.ts",
+        "sha256": "2105eb3c6927bd437a14d3974adf140f3e20005a4a7e3badae6d53d33cd16755"
+      },
+      {
+        "path": "src/server/routes/api/user/files/incomplete.ts",
+        "sha256": "d3a649872fb06e8684e4b303e4cfca4db48a18b09e0b0c80cef1ede1fc1a6650"
+      },
+      {
+        "path": "src/server/routes/api/user/files/index.ts",
+        "sha256": "b15b8437a55179d7780eee7f8cc6a21c6ab93d882b63ab12dcc0e8cbed5de35f"
+      },
+      {
+        "path": "src/server/routes/api/user/files/transaction.ts",
+        "sha256": "f12f2dc780eeee57ae5934a38d929a0b92766f14a382490d7af68cefa6a103c1"
+      },
+      {
+        "path": "src/server/routes/api/user/folders/[id]/export.ts",
+        "sha256": "1f658bd1784ac1f2bf750f962d4c80d24b37f9a339e890d12f64f4e47cb79d38"
+      },
+      {
+        "path": "src/server/routes/api/user/folders/[id]/index.ts",
+        "sha256": "aca85dfd737aa9d490172938157e6ae49828057acaf16375b8044e8e7ca32f4b"
+      },
+      {
+        "path": "src/server/routes/api/user/folders/index.ts",
+        "sha256": "27477595203b06964bd59f0d88b19f41b926d3feede771ea1a5cee888fad4278"
+      },
+      {
+        "path": "src/server/routes/api/user/index.ts",
+        "sha256": "f05a5491cefa7a81311790df85f3d946cdfa75e11bac34c51b78b5043acf6b7f"
+      },
+      {
+        "path": "src/server/routes/api/user/mfa/passkey.ts",
+        "sha256": "90f5dc518d4ad4ebdb239323256f76ab3105b9a6981bf9ac43f4f11254c829f4"
+      },
+      {
+        "path": "src/server/routes/api/user/mfa/totp.ts",
+        "sha256": "49c12f6cbdb5ed6dae3838dcdb1733cd77855f96ed83c48bb68a5b7732723201"
+      },
+      {
+        "path": "src/server/routes/api/user/recent.ts",
+        "sha256": "168a7ee16bce390234d3a3d87ea770603ea7dbc7ef468e71fa26b7ba449cd4b6"
+      },
+      {
+        "path": "src/server/routes/api/user/sessions.ts",
+        "sha256": "baf5aa3bdda279944a66dca8d41e192cefeb71d17e82679b1cf4370463d1bbb1"
+      },
+      {
+        "path": "src/server/routes/api/user/stats.ts",
+        "sha256": "7f3b04f4e9d6c93636f6852a64d2dc92f3b4c2870c986a8c59c3218e22edba33"
+      },
+      {
+        "path": "src/server/routes/api/user/tags/[id].ts",
+        "sha256": "3c5b0860191b39b88a44ec7d357b7a11a5baf96296fecd4ea83ca3c280d99498"
+      },
+      {
+        "path": "src/server/routes/api/user/tags/index.ts",
+        "sha256": "ba0bc417c5603aadecb676779bca14c65e313316c22451235b5f30400be686e5"
+      },
+      {
+        "path": "src/server/routes/api/user/token.ts",
+        "sha256": "f61bbf71add9df9e6d4e536a808fcd42b39fe32726b84c1e3173915f83652858"
+      },
+      {
+        "path": "src/server/routes/api/user/urls/[id]/index.ts",
+        "sha256": "e4c1b5c6b884ae603b39a77d2c058758aee9d3aab8d7022c465d4c285594dec5"
+      },
+      {
+        "path": "src/server/routes/api/user/urls/[id]/password.ts",
+        "sha256": "6e4b76f9d0d8d057649ec0b1643ce28d7254e6ca0c9d0237c5823d34bc50b6e7"
+      },
+      {
+        "path": "src/server/routes/api/user/urls/index.ts",
+        "sha256": "c20b7434105ae608960833744191777d65b8219f55a9f6abea3c754d8c42de73"
+      },
+      {
+        "path": "src/server/routes/api/users/[id]/index.ts",
+        "sha256": "fd0a77ff94afd52c05eff031352677bccbbaec774f4c42ee0581067085278964"
+      },
+      {
+        "path": "src/server/routes/api/users/[id]/tags.ts",
+        "sha256": "cf5bb56f851d57fede84e2c2cdb54fd53ae7121a61cf19a3e2c65ef5c9edd984"
+      },
+      {
+        "path": "src/server/routes/api/users/index.ts",
+        "sha256": "2e18e6b303299fd048a11fbd43151dbb4d3c724a17dd42d94516e250a17b0eb6"
+      },
+      {
+        "path": "src/server/routes/api/version.ts",
+        "sha256": "c227032e08bd169f8eaabdbcf2dcb077e7dcdc687143a9e551ee2772babaa841"
+      }
+    ]
+  },
+  "operations": [
+    {
+      "method": "DELETE",
+      "path": "/api/auth/invites/{id}",
+      "operationId": "DELETE /api/auth/invites/{id}",
+      "sourceFile": "src/server/routes/api/auth/invites/[id].ts",
+      "exclude": false,
+      "tool": "zipline_invites",
+      "action": "delete",
+      "write": true,
+      "destructive": true,
+      "summary": "Delete an invite. Administrator role required."
+    },
+    {
+      "method": "DELETE",
+      "path": "/api/auth/oauth",
+      "operationId": "DELETE /api/auth/oauth",
+      "sourceFile": "src/server/routes/api/auth/oauth/index.ts",
+      "exclude": true,
+      "reason": "Unlink OAuth. Account lifecycle, not file or URL management."
+    },
+    {
+      "method": "DELETE",
+      "path": "/api/server/clear_temp",
+      "operationId": "DELETE /api/server/clear_temp",
+      "sourceFile": "src/server/routes/api/server/clear_temp.ts",
+      "exclude": true,
+      "reason": "Admin temp cleanup. Server admin lifecycle."
+    },
+    {
+      "method": "DELETE",
+      "path": "/api/server/clear_zeros",
+      "operationId": "DELETE /api/server/clear_zeros",
+      "sourceFile": "src/server/routes/api/server/clear_zeros.ts",
+      "exclude": true,
+      "reason": "Admin zero-byte delete. Server admin lifecycle."
+    },
+    {
+      "method": "DELETE",
+      "path": "/api/user/export",
+      "operationId": "DELETE /api/user/export",
+      "sourceFile": "src/server/routes/api/user/export.ts",
+      "exclude": true,
+      "reason": "Deletes a user data export. Account lifecycle."
+    },
+    {
+      "method": "DELETE",
+      "path": "/api/user/files/{id}",
+      "operationId": "DELETE /api/user/files/{id}",
+      "sourceFile": "src/server/routes/api/user/files/[id]/index.ts",
+      "exclude": false,
+      "tool": "zipline_files",
+      "action": "delete",
+      "write": true,
+      "destructive": true,
+      "summary": "Delete a file."
+    },
+    {
+      "method": "DELETE",
+      "path": "/api/user/files/incomplete",
+      "operationId": "DELETE /api/user/files/incomplete",
+      "sourceFile": "src/server/routes/api/user/files/incomplete.ts",
+      "exclude": true,
+      "reason": "Incomplete chunked-upload cleanup. Upload lifecycle."
+    },
+    {
+      "method": "DELETE",
+      "path": "/api/user/files/transaction",
+      "operationId": "DELETE /api/user/files/transaction",
+      "sourceFile": "src/server/routes/api/user/files/transaction.ts",
+      "exclude": true,
+      "reason": "Bulk delete. Single-file delete is the published write."
+    },
+    {
+      "method": "DELETE",
+      "path": "/api/user/folders/{id}",
+      "operationId": "DELETE /api/user/folders/{id}",
+      "sourceFile": "src/server/routes/api/user/folders/[id]/index.ts",
+      "exclude": false,
+      "tool": "zipline_folders",
+      "action": "delete",
+      "write": true,
+      "destructive": true,
+      "summary": "Delete a folder or remove a file from it."
+    },
+    {
+      "method": "DELETE",
+      "path": "/api/user/mfa/passkey",
+      "operationId": "DELETE /api/user/mfa/passkey",
+      "sourceFile": "src/server/routes/api/user/mfa/passkey.ts",
+      "exclude": true,
+      "reason": "Passkey removal. Account lifecycle."
+    },
+    {
+      "method": "DELETE",
+      "path": "/api/user/mfa/totp",
+      "operationId": "DELETE /api/user/mfa/totp",
+      "sourceFile": "src/server/routes/api/user/mfa/totp.ts",
+      "exclude": true,
+      "reason": "TOTP removal. Account lifecycle."
+    },
+    {
+      "method": "DELETE",
+      "path": "/api/user/sessions",
+      "operationId": "DELETE /api/user/sessions",
+      "sourceFile": "src/server/routes/api/user/sessions.ts",
+      "exclude": true,
+      "reason": "Revokes login sessions. Account lifecycle."
+    },
+    {
+      "method": "DELETE",
+      "path": "/api/user/tags/{id}",
+      "operationId": "DELETE /api/user/tags/{id}",
+      "sourceFile": "src/server/routes/api/user/tags/[id].ts",
+      "exclude": false,
+      "tool": "zipline_tags",
+      "action": "delete",
+      "write": true,
+      "destructive": true,
+      "summary": "Delete a tag."
+    },
+    {
+      "method": "DELETE",
+      "path": "/api/user/urls/{id}",
+      "operationId": "DELETE /api/user/urls/{id}",
+      "sourceFile": "src/server/routes/api/user/urls/[id]/index.ts",
+      "exclude": false,
+      "tool": "zipline_urls",
+      "action": "delete",
+      "write": true,
+      "destructive": true,
+      "summary": "Delete a shortened URL."
+    },
+    {
+      "method": "DELETE",
+      "path": "/api/users/{id}",
+      "operationId": "DELETE /api/users/{id}",
+      "sourceFile": "src/server/routes/api/users/[id]/index.ts",
+      "exclude": true,
+      "reason": "Admin user delete. User admin lifecycle is out of scope."
+    },
+    {
+      "method": "GET",
+      "path": "/api/auth/invites",
+      "operationId": "GET /api/auth/invites",
+      "sourceFile": "src/server/routes/api/auth/invites/index.ts",
+      "exclude": false,
+      "tool": "zipline_invites",
+      "action": "list",
+      "write": false,
+      "destructive": false,
+      "summary": "List invite codes. Administrator role required."
+    },
+    {
+      "method": "GET",
+      "path": "/api/auth/invites/{id}",
+      "operationId": "GET /api/auth/invites/{id}",
+      "sourceFile": "src/server/routes/api/auth/invites/[id].ts",
+      "exclude": false,
+      "tool": "zipline_invites",
+      "action": "get",
+      "write": false,
+      "destructive": false,
+      "summary": "Read one invite by id or code. Administrator role required."
+    },
+    {
+      "method": "GET",
+      "path": "/api/auth/invites/web",
+      "operationId": "GET /api/auth/invites/web",
+      "sourceFile": "src/server/routes/api/auth/invites/web.ts",
+      "exclude": true,
+      "reason": "Public invite landing used by the register page."
+    },
+    {
+      "method": "GET",
+      "path": "/api/auth/logout",
+      "operationId": "GET /api/auth/logout",
+      "sourceFile": "src/server/routes/api/auth/logout.ts",
+      "exclude": true,
+      "reason": "Browser logout. Session cookies are out of scope."
+    },
+    {
+      "method": "GET",
+      "path": "/api/auth/oauth",
+      "operationId": "GET /api/auth/oauth",
+      "sourceFile": "src/server/routes/api/auth/oauth/index.ts",
+      "exclude": true,
+      "reason": "OAuth provider listing. Browser auth lifecycle."
+    },
+    {
+      "method": "GET",
+      "path": "/api/auth/oauth/discord",
+      "operationId": "GET /api/auth/oauth/discord",
+      "sourceFile": "src/server/routes/api/auth/oauth/discord.ts",
+      "exclude": true,
+      "reason": "OAuth redirect. Browser auth lifecycle."
+    },
+    {
+      "method": "GET",
+      "path": "/api/auth/oauth/github",
+      "operationId": "GET /api/auth/oauth/github",
+      "sourceFile": "src/server/routes/api/auth/oauth/github.ts",
+      "exclude": true,
+      "reason": "OAuth redirect. Browser auth lifecycle."
+    },
+    {
+      "method": "GET",
+      "path": "/api/auth/oauth/google",
+      "operationId": "GET /api/auth/oauth/google",
+      "sourceFile": "src/server/routes/api/auth/oauth/google.ts",
+      "exclude": true,
+      "reason": "OAuth redirect. Browser auth lifecycle."
+    },
+    {
+      "method": "GET",
+      "path": "/api/auth/oauth/oidc",
+      "operationId": "GET /api/auth/oauth/oidc",
+      "sourceFile": "src/server/routes/api/auth/oauth/oidc.ts",
+      "exclude": true,
+      "reason": "OAuth redirect. Browser auth lifecycle."
+    },
+    {
+      "method": "GET",
+      "path": "/api/auth/webauthn/options",
+      "operationId": "GET /api/auth/webauthn/options",
+      "sourceFile": "src/server/routes/api/auth/webauthn.ts",
+      "exclude": true,
+      "reason": "Passkey authentication options. Browser auth lifecycle."
+    },
+    {
+      "method": "GET",
+      "path": "/api/healthcheck",
+      "operationId": "GET /api/healthcheck",
+      "sourceFile": "src/server/routes/api/healthcheck.ts",
+      "exclude": false,
+      "tool": "zipline_info",
+      "action": "health",
+      "write": false,
+      "destructive": false,
+      "summary": "Read the instance healthcheck."
+    },
+    {
+      "method": "GET",
+      "path": "/api/server/clear_zeros",
+      "operationId": "GET /api/server/clear_zeros",
+      "sourceFile": "src/server/routes/api/server/clear_zeros.ts",
+      "exclude": true,
+      "reason": "Admin zero-byte scan. Server admin lifecycle."
+    },
+    {
+      "method": "GET",
+      "path": "/api/server/export",
+      "operationId": "GET /api/server/export",
+      "sourceFile": "src/server/routes/api/server/export.ts",
+      "exclude": true,
+      "reason": "Server export listing. Server admin lifecycle."
+    },
+    {
+      "method": "GET",
+      "path": "/api/server/folder/{id}",
+      "operationId": "GET /api/server/folder/{id}",
+      "sourceFile": "src/server/routes/api/server/folder.ts",
+      "exclude": true,
+      "reason": "Public folder view. Not authenticated folder CRUD."
+    },
+    {
+      "method": "GET",
+      "path": "/api/server/public",
+      "operationId": "GET /api/server/public",
+      "sourceFile": "src/server/routes/api/server/public.ts",
+      "exclude": true,
+      "reason": "Public server settings for the login page."
+    },
+    {
+      "method": "GET",
+      "path": "/api/server/settings",
+      "operationId": "GET /api/server/settings",
+      "sourceFile": "src/server/routes/api/server/settings/index.ts",
+      "exclude": true,
+      "reason": "Full server settings. Super-admin lifecycle."
+    },
+    {
+      "method": "GET",
+      "path": "/api/server/settings/web",
+      "operationId": "GET /api/server/settings/web",
+      "sourceFile": "src/server/routes/api/server/settings/web.ts",
+      "exclude": true,
+      "reason": "Web-safe settings subset for the dashboard."
+    },
+    {
+      "method": "GET",
+      "path": "/api/server/status",
+      "operationId": "GET /api/server/status",
+      "sourceFile": "src/server/routes/api/server/status.ts",
+      "exclude": true,
+      "reason": "Admin process status. Server admin lifecycle."
+    },
+    {
+      "method": "GET",
+      "path": "/api/server/themes",
+      "operationId": "GET /api/server/themes",
+      "sourceFile": "src/server/routes/api/server/themes.ts",
+      "exclude": true,
+      "reason": "Theme listing. Server admin UI."
+    },
+    {
+      "method": "GET",
+      "path": "/api/setup",
+      "operationId": "GET /api/setup",
+      "sourceFile": "src/server/routes/api/setup.ts",
+      "exclude": true,
+      "reason": "First-time setup probe. Browser admin lifecycle, not a documented agent file or URL operation."
+    },
+    {
+      "method": "GET",
+      "path": "/api/stats",
+      "operationId": "GET /api/stats",
+      "sourceFile": "src/server/routes/api/stats.ts",
+      "exclude": false,
+      "tool": "zipline_info",
+      "action": "instance",
+      "write": false,
+      "destructive": false,
+      "summary": "Read instance metrics. May be admin-only depending on server settings."
+    },
+    {
+      "method": "GET",
+      "path": "/api/user",
+      "operationId": "GET /api/user",
+      "sourceFile": "src/server/routes/api/user/index.ts",
+      "exclude": false,
+      "tool": "zipline_info",
+      "action": "me",
+      "write": false,
+      "destructive": false,
+      "summary": "Read the authenticated user, role, and quota. Token fields are stripped."
+    },
+    {
+      "method": "GET",
+      "path": "/api/user/activity",
+      "operationId": "GET /api/user/activity",
+      "sourceFile": "src/server/routes/api/user/activity.ts",
+      "exclude": true,
+      "reason": "User activity log. Not in the published tool set."
+    },
+    {
+      "method": "GET",
+      "path": "/api/user/avatar",
+      "operationId": "GET /api/user/avatar",
+      "sourceFile": "src/server/routes/api/user/avatar.ts",
+      "exclude": true,
+      "reason": "Raw avatar bytes. Not JSON management."
+    },
+    {
+      "method": "GET",
+      "path": "/api/user/export",
+      "operationId": "GET /api/user/export",
+      "sourceFile": "src/server/routes/api/user/export.ts",
+      "exclude": true,
+      "reason": "User data export listing. Account lifecycle."
+    },
+    {
+      "method": "GET",
+      "path": "/api/user/files",
+      "operationId": "GET /api/user/files",
+      "sourceFile": "src/server/routes/api/user/files/index.ts",
+      "exclude": false,
+      "tool": "zipline_files",
+      "action": "list",
+      "write": false,
+      "destructive": false,
+      "summary": "List or search files for the authenticated user."
+    },
+    {
+      "method": "GET",
+      "path": "/api/user/files/{id}",
+      "operationId": "GET /api/user/files/{id}",
+      "sourceFile": "src/server/routes/api/user/files/[id]/index.ts",
+      "exclude": false,
+      "tool": "zipline_files",
+      "action": "get",
+      "write": false,
+      "destructive": false,
+      "summary": "Read one file by id or short name."
+    },
+    {
+      "method": "GET",
+      "path": "/api/user/files/{id}/raw",
+      "operationId": "GET /api/user/files/{id}/raw",
+      "sourceFile": "src/server/routes/api/user/files/[id]/raw.ts",
+      "exclude": true,
+      "reason": "Binary file download. Not a JSON management operation."
+    },
+    {
+      "method": "GET",
+      "path": "/api/user/files/incomplete",
+      "operationId": "GET /api/user/files/incomplete",
+      "sourceFile": "src/server/routes/api/user/files/incomplete.ts",
+      "exclude": true,
+      "reason": "Incomplete chunked-upload listing. Upload lifecycle."
+    },
+    {
+      "method": "GET",
+      "path": "/api/user/folders",
+      "operationId": "GET /api/user/folders",
+      "sourceFile": "src/server/routes/api/user/folders/index.ts",
+      "exclude": false,
+      "tool": "zipline_folders",
+      "action": "list",
+      "write": false,
+      "destructive": false,
+      "summary": "List folders for the authenticated user."
+    },
+    {
+      "method": "GET",
+      "path": "/api/user/folders/{id}",
+      "operationId": "GET /api/user/folders/{id}",
+      "sourceFile": "src/server/routes/api/user/folders/[id]/index.ts",
+      "exclude": false,
+      "tool": "zipline_folders",
+      "action": "get",
+      "write": false,
+      "destructive": false,
+      "summary": "Read one folder by id."
+    },
+    {
+      "method": "GET",
+      "path": "/api/user/folders/{id}/export",
+      "operationId": "GET /api/user/folders/{id}/export",
+      "sourceFile": "src/server/routes/api/user/folders/[id]/export.ts",
+      "exclude": true,
+      "reason": "Zip export of a folder. Binary download, not JSON CRUD."
+    },
+    {
+      "method": "GET",
+      "path": "/api/user/mfa/passkey",
+      "operationId": "GET /api/user/mfa/passkey",
+      "sourceFile": "src/server/routes/api/user/mfa/passkey.ts",
+      "exclude": true,
+      "reason": "Passkey listing. Account lifecycle."
+    },
+    {
+      "method": "GET",
+      "path": "/api/user/mfa/passkey/options",
+      "operationId": "GET /api/user/mfa/passkey/options",
+      "sourceFile": "src/server/routes/api/user/mfa/passkey.ts",
+      "exclude": true,
+      "reason": "Passkey registration options. Account lifecycle."
+    },
+    {
+      "method": "GET",
+      "path": "/api/user/mfa/totp",
+      "operationId": "GET /api/user/mfa/totp",
+      "sourceFile": "src/server/routes/api/user/mfa/totp.ts",
+      "exclude": true,
+      "reason": "TOTP enrollment. Account lifecycle."
+    },
+    {
+      "method": "GET",
+      "path": "/api/user/recent",
+      "operationId": "GET /api/user/recent",
+      "sourceFile": "src/server/routes/api/user/recent.ts",
+      "exclude": true,
+      "reason": "Dashboard recent-files widget. Covered by zipline_files list."
+    },
+    {
+      "method": "GET",
+      "path": "/api/user/sessions",
+      "operationId": "GET /api/user/sessions",
+      "sourceFile": "src/server/routes/api/user/sessions.ts",
+      "exclude": true,
+      "reason": "Lists login sessions. Session data is redacted and out of scope."
+    },
+    {
+      "method": "GET",
+      "path": "/api/user/stats",
+      "operationId": "GET /api/user/stats",
+      "sourceFile": "src/server/routes/api/user/stats.ts",
+      "exclude": false,
+      "tool": "zipline_info",
+      "action": "stats",
+      "write": false,
+      "destructive": false,
+      "summary": "Read the authenticated user's file and URL counters."
+    },
+    {
+      "method": "GET",
+      "path": "/api/user/tags",
+      "operationId": "GET /api/user/tags",
+      "sourceFile": "src/server/routes/api/user/tags/index.ts",
+      "exclude": false,
+      "tool": "zipline_tags",
+      "action": "list",
+      "write": false,
+      "destructive": false,
+      "summary": "List tags owned by the authenticated user."
+    },
+    {
+      "method": "GET",
+      "path": "/api/user/tags/{id}",
+      "operationId": "GET /api/user/tags/{id}",
+      "sourceFile": "src/server/routes/api/user/tags/[id].ts",
+      "exclude": false,
+      "tool": "zipline_tags",
+      "action": "get",
+      "write": false,
+      "destructive": false,
+      "summary": "Read one tag by id."
+    },
+    {
+      "method": "GET",
+      "path": "/api/user/token",
+      "operationId": "GET /api/user/token",
+      "sourceFile": "src/server/routes/api/user/token.ts",
+      "exclude": true,
+      "reason": "Returns the encrypted API token. The connector never returns tokens."
+    },
+    {
+      "method": "GET",
+      "path": "/api/user/urls",
+      "operationId": "GET /api/user/urls",
+      "sourceFile": "src/server/routes/api/user/urls/index.ts",
+      "exclude": false,
+      "tool": "zipline_urls",
+      "action": "list",
+      "write": false,
+      "destructive": false,
+      "summary": "List or search shortened URLs."
+    },
+    {
+      "method": "GET",
+      "path": "/api/user/urls/{id}",
+      "operationId": "GET /api/user/urls/{id}",
+      "sourceFile": "src/server/routes/api/user/urls/[id]/index.ts",
+      "exclude": false,
+      "tool": "zipline_urls",
+      "action": "get",
+      "write": false,
+      "destructive": false,
+      "summary": "Read one shortened URL by id."
+    },
+    {
+      "method": "GET",
+      "path": "/api/users",
+      "operationId": "GET /api/users",
+      "sourceFile": "src/server/routes/api/users/index.ts",
+      "exclude": true,
+      "reason": "Admin user listing. User admin lifecycle is out of scope."
+    },
+    {
+      "method": "GET",
+      "path": "/api/users/{id}",
+      "operationId": "GET /api/users/{id}",
+      "sourceFile": "src/server/routes/api/users/[id]/index.ts",
+      "exclude": true,
+      "reason": "Admin user read. User admin lifecycle is out of scope."
+    },
+    {
+      "method": "GET",
+      "path": "/api/users/{id}/tags",
+      "operationId": "GET /api/users/{id}/tags",
+      "sourceFile": "src/server/routes/api/users/[id]/tags.ts",
+      "exclude": true,
+      "reason": "Admin view of another user's tags. Covered for self via zipline_tags."
+    },
+    {
+      "method": "GET",
+      "path": "/api/version",
+      "operationId": "GET /api/version",
+      "sourceFile": "src/server/routes/api/version.ts",
+      "exclude": true,
+      "reason": "Queries GitHub for release metadata. Out of scope for a local instance connector."
+    },
+    {
+      "method": "PATCH",
+      "path": "/api/server/settings",
+      "operationId": "PATCH /api/server/settings",
+      "sourceFile": "src/server/routes/api/server/settings/index.ts",
+      "exclude": true,
+      "reason": "Mutate server settings. Super-admin lifecycle."
+    },
+    {
+      "method": "PATCH",
+      "path": "/api/user",
+      "operationId": "PATCH /api/user",
+      "sourceFile": "src/server/routes/api/user/index.ts",
+      "exclude": true,
+      "reason": "Updates username, password, avatar, and view settings. Returns a token cookie. Account lifecycle."
+    },
+    {
+      "method": "PATCH",
+      "path": "/api/user/files/{id}",
+      "operationId": "PATCH /api/user/files/{id}",
+      "sourceFile": "src/server/routes/api/user/files/[id]/index.ts",
+      "exclude": false,
+      "tool": "zipline_files",
+      "action": "update",
+      "write": true,
+      "destructive": false,
+      "summary": "Update file metadata. expiresAt is not a v4.8.2 PATCH field."
+    },
+    {
+      "method": "PATCH",
+      "path": "/api/user/files/transaction",
+      "operationId": "PATCH /api/user/files/transaction",
+      "sourceFile": "src/server/routes/api/user/files/transaction.ts",
+      "exclude": true,
+      "reason": "Bulk favorite or folder transaction. Single-file tools cover the same fields."
+    },
+    {
+      "method": "PATCH",
+      "path": "/api/user/folders/{id}",
+      "operationId": "PATCH /api/user/folders/{id}",
+      "sourceFile": "src/server/routes/api/user/folders/[id]/index.ts",
+      "exclude": false,
+      "tool": "zipline_folders",
+      "action": "update",
+      "write": true,
+      "destructive": false,
+      "summary": "Update folder name, visibility, uploads, or parent."
+    },
+    {
+      "method": "PATCH",
+      "path": "/api/user/tags/{id}",
+      "operationId": "PATCH /api/user/tags/{id}",
+      "sourceFile": "src/server/routes/api/user/tags/[id].ts",
+      "exclude": false,
+      "tool": "zipline_tags",
+      "action": "update",
+      "write": true,
+      "destructive": false,
+      "summary": "Update a tag name or color."
+    },
+    {
+      "method": "PATCH",
+      "path": "/api/user/token",
+      "operationId": "PATCH /api/user/token",
+      "sourceFile": "src/server/routes/api/user/token.ts",
+      "exclude": true,
+      "reason": "Rotates the API token. The connector never returns or rotates tokens."
+    },
+    {
+      "method": "PATCH",
+      "path": "/api/user/urls/{id}",
+      "operationId": "PATCH /api/user/urls/{id}",
+      "sourceFile": "src/server/routes/api/user/urls/[id]/index.ts",
+      "exclude": false,
+      "tool": "zipline_urls",
+      "action": "update",
+      "write": true,
+      "destructive": false,
+      "summary": "Update a shortened URL."
+    },
+    {
+      "method": "PATCH",
+      "path": "/api/users/{id}",
+      "operationId": "PATCH /api/users/{id}",
+      "sourceFile": "src/server/routes/api/users/[id]/index.ts",
+      "exclude": true,
+      "reason": "Admin user update including quota writes. Super-admin lifecycle."
+    },
+    {
+      "method": "POST",
+      "path": "/api/auth/invites",
+      "operationId": "POST /api/auth/invites",
+      "sourceFile": "src/server/routes/api/auth/invites/index.ts",
+      "exclude": false,
+      "tool": "zipline_invites",
+      "action": "create",
+      "write": true,
+      "destructive": false,
+      "summary": "Create an invite code. Administrator role required."
+    },
+    {
+      "method": "POST",
+      "path": "/api/auth/login",
+      "operationId": "POST /api/auth/login",
+      "sourceFile": "src/server/routes/api/auth/login.ts",
+      "exclude": true,
+      "reason": "Browser login. Session cookies are out of scope."
+    },
+    {
+      "method": "POST",
+      "path": "/api/auth/register",
+      "operationId": "POST /api/auth/register",
+      "sourceFile": "src/server/routes/api/auth/register.ts",
+      "exclude": true,
+      "reason": "Public registration. Invite-gated signup is not an agent write."
+    },
+    {
+      "method": "POST",
+      "path": "/api/auth/webauthn",
+      "operationId": "POST /api/auth/webauthn",
+      "sourceFile": "src/server/routes/api/auth/webauthn.ts",
+      "exclude": true,
+      "reason": "Passkey ceremony. Browser auth lifecycle."
+    },
+    {
+      "method": "POST",
+      "path": "/api/server/import/v3",
+      "operationId": "POST /api/server/import/v3",
+      "sourceFile": "src/server/routes/api/server/import/v3.ts",
+      "exclude": true,
+      "reason": "v3 importer. Migration lifecycle."
+    },
+    {
+      "method": "POST",
+      "path": "/api/server/import/v4",
+      "operationId": "POST /api/server/import/v4",
+      "sourceFile": "src/server/routes/api/server/import/v4.ts",
+      "exclude": true,
+      "reason": "v4 importer. Migration lifecycle."
+    },
+    {
+      "method": "POST",
+      "path": "/api/server/requery_size",
+      "operationId": "POST /api/server/requery_size",
+      "sourceFile": "src/server/routes/api/server/requery_size.ts",
+      "exclude": true,
+      "reason": "Admin storage requery. Server admin lifecycle."
+    },
+    {
+      "method": "POST",
+      "path": "/api/server/thumbnails",
+      "operationId": "POST /api/server/thumbnails",
+      "sourceFile": "src/server/routes/api/server/thumbnails.ts",
+      "exclude": true,
+      "reason": "Admin thumbnail rebuild. Server admin lifecycle."
+    },
+    {
+      "method": "POST",
+      "path": "/api/setup",
+      "operationId": "POST /api/setup",
+      "sourceFile": "src/server/routes/api/setup.ts",
+      "exclude": true,
+      "reason": "Creates the first SUPERADMIN. Browser setup, not an ongoing instance-management tool."
+    },
+    {
+      "method": "POST",
+      "path": "/api/upload",
+      "operationId": "POST /api/upload",
+      "sourceFile": "src/server/routes/api/upload/index.ts",
+      "exclude": true,
+      "reason": "Multipart upload. Local filesystem tools are out of scope. File expiry exists only on this route via x-zipline-deletes-at, so expire is omitted."
+    },
+    {
+      "method": "POST",
+      "path": "/api/upload/partial",
+      "operationId": "POST /api/upload/partial",
+      "sourceFile": "src/server/routes/api/upload/partial.ts",
+      "exclude": true,
+      "reason": "Chunked upload continuation. Local filesystem tools are out of scope."
+    },
+    {
+      "method": "POST",
+      "path": "/api/user/export",
+      "operationId": "POST /api/user/export",
+      "sourceFile": "src/server/routes/api/user/export.ts",
+      "exclude": true,
+      "reason": "Starts a user data export. Account lifecycle."
+    },
+    {
+      "method": "POST",
+      "path": "/api/user/files/{id}/password",
+      "operationId": "POST /api/user/files/{id}/password",
+      "sourceFile": "src/server/routes/api/user/files/[id]/password.ts",
+      "exclude": true,
+      "reason": "Public password unlock for a protected file. Not owner metadata update."
+    },
+    {
+      "method": "POST",
+      "path": "/api/user/folders",
+      "operationId": "POST /api/user/folders",
+      "sourceFile": "src/server/routes/api/user/folders/index.ts",
+      "exclude": false,
+      "tool": "zipline_folders",
+      "action": "create",
+      "write": true,
+      "destructive": false,
+      "summary": "Create a folder."
+    },
+    {
+      "method": "POST",
+      "path": "/api/user/mfa/passkey",
+      "operationId": "POST /api/user/mfa/passkey",
+      "sourceFile": "src/server/routes/api/user/mfa/passkey.ts",
+      "exclude": true,
+      "reason": "Passkey registration. Account lifecycle."
+    },
+    {
+      "method": "POST",
+      "path": "/api/user/mfa/totp",
+      "operationId": "POST /api/user/mfa/totp",
+      "sourceFile": "src/server/routes/api/user/mfa/totp.ts",
+      "exclude": true,
+      "reason": "TOTP enrollment. Account lifecycle."
+    },
+    {
+      "method": "POST",
+      "path": "/api/user/tags",
+      "operationId": "POST /api/user/tags",
+      "sourceFile": "src/server/routes/api/user/tags/index.ts",
+      "exclude": false,
+      "tool": "zipline_tags",
+      "action": "create",
+      "write": true,
+      "destructive": false,
+      "summary": "Create a tag."
+    },
+    {
+      "method": "POST",
+      "path": "/api/user/urls",
+      "operationId": "POST /api/user/urls",
+      "sourceFile": "src/server/routes/api/user/urls/index.ts",
+      "exclude": false,
+      "tool": "zipline_urls",
+      "action": "shorten",
+      "write": true,
+      "destructive": false,
+      "summary": "Create a shortened URL."
+    },
+    {
+      "method": "POST",
+      "path": "/api/user/urls/{id}/password",
+      "operationId": "POST /api/user/urls/{id}/password",
+      "sourceFile": "src/server/routes/api/user/urls/[id]/password.ts",
+      "exclude": true,
+      "reason": "Public password unlock for a protected URL. Not owner metadata update."
+    },
+    {
+      "method": "POST",
+      "path": "/api/users",
+      "operationId": "POST /api/users",
+      "sourceFile": "src/server/routes/api/users/index.ts",
+      "exclude": true,
+      "reason": "Admin user create. User admin lifecycle is out of scope."
+    },
+    {
+      "method": "PUT",
+      "path": "/api/user/folders/{id}",
+      "operationId": "PUT /api/user/folders/{id}",
+      "sourceFile": "src/server/routes/api/user/folders/[id]/index.ts",
+      "exclude": false,
+      "tool": "zipline_folders",
+      "action": "add",
+      "write": true,
+      "destructive": false,
+      "summary": "Add a file to a folder."
+    }
+  ]
+}
